@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables and configuration
+.env
+*.env
+
+# macOS files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+.history
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.pyenv/
+__pypackages__/
+
+# PyInstaller
+# Usually contains temporary files and log files
+build/
+dist/
+*.spec
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# IntelliJ IDEA
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# PyCharm
+*.idea/
+*.iml
+
+# Sensitive API keys and config files
+*.pem
+*.key
+config.json
