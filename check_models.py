@@ -1,7 +1,7 @@
 import openai
-from env.py import API_KEY
+import env
 
-openai.api_key = API_KEY
+openai.api_key = env.API_KEY
 
 models = openai.Model.list()
 for model in models['data']:
